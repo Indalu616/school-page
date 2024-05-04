@@ -1,0 +1,47 @@
+.programs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.programs .container {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-basis: 31%;
+  }
+  .program{
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  .program img{
+    width: 300px;
+    border-radius: 10px;
+
+  }
+  .icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,15, 152, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+    border-radius: 10px;
+  }
+  .icon img{
+    width: 60px;
+  
+  }
+  .program:hover .icon{
+    opacity: 1;
+    padding-top: 0;
+  }

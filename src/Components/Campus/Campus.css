@@ -1,0 +1,29 @@
+.campus{
+    width: 100%;
+}
+.campus-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.campus-left{
+    flex-basis:35%;
+    
+}
+.campus-left img{
+    width: 100%;
+    border-radius: 20px;
+}
+.campus-right{
+    flex-basis: 35%;
+    margin-left: 20px;
+}
+.campus-right h1{
+    font-size: 20px;
+    color: rgb(97, 97, 241);
+}
+.campus-right h2{
+    width: 300px;
+}

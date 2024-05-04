@@ -1,0 +1,46 @@
+.photos-container{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px auto;
+}
+.photos{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.photo{
+    flex-basis: 25%;
+    margin: 10px;
+}
+.photo img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.photo-btn{
+   background-color: darkblue;
+   color: white;
+   text-align: center;
+   width: 200px;
+}
